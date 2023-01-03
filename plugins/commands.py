@@ -14,7 +14,7 @@ from pyrogram.types import (
 async def start_message(c,m):
     collection.create_index([("title" , TEXT),("caption", TEXT)],name="movie_index")
     if len(m.command) == 1:
-        return await m.reply_photo("https://telegra.ph/file/32fdcdd2e76a4df454e39.jpg",
+        return await m.reply_photo("https://telegra.ph/file/91e8f95e3b2aedb13f5e1.jpg",
             caption=START_MESSAGE.format(m.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
