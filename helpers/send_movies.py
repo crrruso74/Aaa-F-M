@@ -27,7 +27,7 @@ async def send_movie_pvt_handler(m: Message, query:str, reply_markup):
         reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("Check correct spelling ✅", url=google_search_url)],
-            [InlineKeyboardButton("Ask To Admin ✅", url="https://t.me/MX_Support")]
+            [InlineKeyboardButton("Ask To Admin ✅", url="https://t.me/MX_Support_Bot")]
         ])
 
         txt = await m.reply(text=NO_RESULTS_FOUND.format(m.text, "https://www.google.com/search"), reply_markup=reply_markup)
@@ -53,7 +53,7 @@ async def send_movie_group_handler(m: Message, query:str, reply_markup):
         reply_markup=InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("Check correct spelling ✅", url=google_search_url)],
-            [InlineKeyboardButton("Ask To Admin ✅", url="https://MX_Support")]
+            [InlineKeyboardButton("Ask To Admin ✅", url="https://MX_Support_Bot")]
         ])
 
         txt = await m.reply(text=NO_RESULTS_FOUND.format(m.text, "https://www.google.com/search"), reply_markup=reply_markup)
