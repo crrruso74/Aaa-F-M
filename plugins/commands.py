@@ -19,7 +19,7 @@ async def start_message(c,m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/PopkarnBot?startgroup=true'),
                      ],[
                      InlineKeyboardButton("⚡ Gʀᴏᴜᴘ ", url="https://t.me/MX_Movie_Request"),                             
                      InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇs ", url="https://t.me/MX_Networks")
