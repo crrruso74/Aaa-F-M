@@ -30,10 +30,10 @@ async def get_movies(query:str, m:Message):
         else:
             buttons = []
             buttons.append(
-                   [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                   [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/Mdiskshortnerlink_Tutorial")]
                 )
             buttons.append(
-                [InlineKeyboardButton(text="📃 ᴘᴀɢᴇs 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="📃 𝐏𝐀𝐆𝐄𝐒 1/1",callback_data="pages")]
             )
 
             if m.chat.id in ADMINS:
@@ -49,13 +49,13 @@ async def get_movies(query:str, m:Message):
 
         buttons = []
         buttons.append(
-                [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/Mdiskshortnerlink_Tutorial")]
             )
         buttons.append(
-            [InlineKeyboardButton(text="ɴᴇxᴛ ►",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ►",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 ᴘᴀɢᴇs 1/{data['total']}", callback_data="pages")]
+            [InlineKeyboardButton(text=f"📃 𝐏𝐀𝐆𝐄𝐒 1/{data['total']}", callback_data="pages")]
         )
 
         if m.chat.id in ADMINS:
