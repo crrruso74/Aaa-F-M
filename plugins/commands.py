@@ -19,10 +19,10 @@ async def start_message(c,m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://t.me/SpiderSearchBot?startgroup=true'),
+                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                      ],[
-                     InlineKeyboardButton("⚡ 𝙶𝚁𝙾𝚄𝙿 ⚡", url="https://t.me/MX_Movie_Request"),                             
-                     InlineKeyboardButton("🤖 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🤖", url="https://t.me/MX_Networks")
+                     InlineKeyboardButton("⚡ Gʀᴏᴜᴘ ", url="https://t.me/MX_Movie_Request"),                             
+                     InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇs ", url="https://t.me/MX_Networks")
                     ]
                 ]
             )
