@@ -105,13 +105,13 @@ async def next_btn_cb_handler(client: Client, query: CallbackQuery):
             id = data['buttons'][int(index)+1][0]['id']
             cap = data['buttons'][int(index)+1][0]['caption']
             buttons.append(
-                [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/mdiskshortnerlink_tutorial")]
             )
             buttons.append(
-                [InlineKeyboardButton("◄ ʙᴀᴄᴋ", callback_data=f"back_{int(index)+1}_{keyword}")]
+                [InlineKeyboardButton("◄ 𝐁𝐀𝐂𝐊", callback_data=f"back_{int(index)+1}_{keyword}")]
             )
             buttons.append(
-                [InlineKeyboardButton(f"📃 ᴘᴀɢᴇs {int(index)+2}/{data['total']}", callback_data="pages")]
+                [InlineKeyboardButton(f"📃 𝐏𝐀𝐆𝐄𝐒 {int(index)+2}/{data['total']}", callback_data="pages")]
             )
 
             if query.message.chat.id in ADMINS:
@@ -128,13 +128,13 @@ async def next_btn_cb_handler(client: Client, query: CallbackQuery):
             cap = data['buttons'][int(index)+1][0]['caption']
             id = data['buttons'][int(index)+1][0]['id']
             buttons.append(
-                [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/MX_Tutorial")]
             )
             buttons.append(
-                [InlineKeyboardButton("◄ ʙᴀᴄᴋ", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
+                [InlineKeyboardButton("◄ 𝐁𝐀𝐂𝐊", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
             )
             buttons.append(
-                [InlineKeyboardButton(f"📃 ᴘᴀɢᴇs {int(index)+2}/{data['total']}", callback_data="pages")]
+                [InlineKeyboardButton(f"📃 𝐏𝐀𝐆𝐄𝐒 {int(index)+2}/{data['total']}", callback_data="pages")]
             )
 
             if query.message.chat.id in ADMINS:
@@ -176,13 +176,13 @@ async def back_btn_cb_handler(client: Client, query: CallbackQuery):
             cap = data['buttons'][int(index)-1][0]['caption']
             id = data['buttons'][int(index)-1][0]['id']
             buttons.append(
-                [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/Mdiskshortnerlink_Tutorial")]
             )
             buttons.append(
-                    [InlineKeyboardButton("ɴᴇxᴛ ►", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("𝐍𝐄𝐗𝐓 ►", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
             buttons.append(
-                [InlineKeyboardButton(f"📃 ᴘᴀɢᴇs {int(index)}/{data['total']}", callback_data="pages")]
+                [InlineKeyboardButton(f"📃 𝐏𝐀𝐆𝐄𝐒 {int(index)}/{data['total']}", callback_data="pages")]
             )
 
             if query.message.chat.id in ADMINS:
@@ -203,13 +203,13 @@ async def back_btn_cb_handler(client: Client, query: CallbackQuery):
             cap = data['buttons'][int(index)-1][0]['caption']
             id = data['buttons'][int(index)-1][0]['id']
             buttons.append(
-                [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/Mdiskshortnerlink_Tutorial")]
             )
             buttons.append(
-                [InlineKeyboardButton("◄ ʙᴀᴄᴋ", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
+                [InlineKeyboardButton("◄ 𝐁𝐀𝐂𝐊", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("𝐍𝐄𝐗𝐓 ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
             )
             buttons.append(
-                [InlineKeyboardButton(f"📃 ᴘᴀɢᴇs {int(index)}/{data['total']}", callback_data="pages")]
+                [InlineKeyboardButton(f"📃 𝐏𝐀𝐆𝐄𝐒 {int(index)}/{data['total']}", callback_data="pages")]
             )
                             
             if query.message.chat.id in ADMINS:
