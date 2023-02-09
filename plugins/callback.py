@@ -128,7 +128,7 @@ async def next_btn_cb_handler(client: Client, query: CallbackQuery):
             cap = data['buttons'][int(index)+1][0]['caption']
             id = data['buttons'][int(index)+1][0]['id']
             buttons.append(
-                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/MX_Tutorial")]
+                [InlineKeyboardButton("💥 ʜᴏᴡ ᴛᴏ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 💥", url="https://t.me/Mdiskshortnerlink_Tutorial")]
             )
             buttons.append(
                 [InlineKeyboardButton("◄ 𝐁𝐀𝐂𝐊", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
